@@ -1,0 +1,56 @@
+{
+  "python.insidersChannel": "off",
+  "files.autoSave": "onFocusChange",
+  "terminal.explorerKind": "external",
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "git.ignoreLegacyWarning": true,
+  "files.exclude": {
+      "**/.*": true,
+      "**/.vscode": true,
+      "**/.classpath": true,
+      "**/.project": true,
+      "**/.settings": true,
+      "**/.factorypath": true
+  },
+  "editor.minimap.enabled": false,
+  "editor.largeFileOptimizations": true,
+  "python.languageServer": "Jedi",
+  "workbench.editorAssociations": {
+      "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "jupyter.disableJupyterAutoStart": true,
+  "jupyter.askForKernelRestart": false,
+  "jupyter.alwaysTrustNotebooks": true,
+  "workbench.sideBar.location": "left",
+  "workbench.activityBar.visible": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "go.formatTool": "gofmt",
+  "go.useLanguageServer": true,
+  "git.autofetch": true,
+  "go.toolsManagement.autoUpdate": true,
+  "git.confirmSync": false,
+  "prettier.printWidth": 120,
+  "files.associations": {
+      "*.html": "html"
+  },
+  "[html]": {
+  
+      "editor.suggest.insertMode": "replace",
+      "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+      "editor.defaultFormatter": "svipas.prettier-plus"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "window.zoomLevel": 1,
+  "[typescript]": {
+      "editor.defaultFormatter": "svipas.prettier-plus"
+  },
+  "editor.formatOnSave": true,
+  "prettier.tabWidth": 4,
+  "editor.tabSize": 4,
+  "python.defaultInterpreterPath": "/Users/aramani/.virtualenvs/P365/bin/python",
+  "redhat.telemetry.enabled": true
+
+}
